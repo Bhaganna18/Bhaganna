@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile & Resume</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #a8cfff, #6bb8ff, #3a8dff);
+            /* light blue → medium blue → deep blue */
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            width: 550px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        .profile-img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #1a4d91;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            color: #1a4d91;
+            margin-top: 0;
+        }
+
+        .btn {
+            margin-top: 20px;
+            background: #1a73e8;
+            color: white;
+            padding: 10px 22px;
+            border: none;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background: #0f5ed8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <img src="Bhaganna.jpg" class="profile-img" alt="My Photo">
+
+        <h2>Bhaganna C Kudare</h2>
+
+        <h3>Marata Mandala Engineering College Belagavi</h3>
+
+        <p><b>Department:</b> Computer Science and Engineering</p>
+        <p><b>Semester:</b> 5th semester</p>
+
+        <p>computer science student passionate about technology, innovation, and solving real-world problems through programming and smart solutions..</p>
+
+        <a href="resume.jpg" class="btn" target="_blank">View Resume</a>
+
+    </div>
+
+</body>
+</html>

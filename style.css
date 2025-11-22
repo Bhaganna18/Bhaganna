@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile </title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eef3f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: white;
+            width: 70%;
+            max-width: 600px;
+            padding: 40px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        /* Passport size photo style */
+        .profile-photo {
+            width: 120px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border: 2px solid #ddd;
+        }
+
+        h2 {
+            color: black;
+            margin-top: 5px;
+        }
+
+        h3 {
+            color: #000;
+        }
+
+        .button {
+            background-color: #c13bf6;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            margin-top: 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .button:hover {
+            background-color: hwb(219 12% 5% / 0.736);
+        }
+
+        .small-text {
+            color: #444;
+            margin-top: 20px;
+        }
+
+        span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Passport size photo -->
+        <img src="Bhaganna.jpg" alt="My Photo" class="profile-photo">
+
+        <h2>Bhaganna C Kudare</h2>
+
+        <h3>Maratha Mandala Engineering College Belagavi</h3>
+
+        <p><span>Department:</span> Computer Science and Engineering</p>
+        <p><span>Semester:</span> 5th sem</p>
+
+        <p class="small-text">
+            Computer Science student passionate about web development and design.
+        </p>
+
+        <button class="button" onclick="window.location.href='resume.html'">
+            View Resume
+        
+        </button>
+    </div>
+
+</body>
+</html>
